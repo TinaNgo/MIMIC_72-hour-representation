@@ -29,9 +29,9 @@ python3 get_train_test.py
 
 ## Perform feature selections on the train set
 
-- CFS
-- Information Gain
-- Manual Feature Selection
+- CFS: "separation_mode", "n_ed_visits"
+- Information Gain: "separation_mode", "n_ed_visits", "diagnosis_category", "n_ed_admissions", "triage_category", "revisited"
+- Manual Feature Selection: "gender", "separation_mode", "diagnosis_category", "age", "triage_category"
 
 
 CFS and Information Gain can be performed using Weka, but it can also be done via code. After having the list of selected features, run the code below. \<FS method\>_col_list arrays in this file script are the lists of selected features for each FS method.

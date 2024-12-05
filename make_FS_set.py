@@ -30,11 +30,11 @@ def main():
     load_and_filter_dataframe(directory_in, manual_directory_out, manual_col_list)
 
     cfs_directory_out = "TrainTestData/CFS/"
-    cfs_col_list = ["chiefcom_syncope", "n_ed_visits", "n_ed_admissions", "revisited"]
+    cfs_col_list = ["separation_mode", "n_ed_visits", "revisited"]
     load_and_filter_dataframe(directory_in, cfs_directory_out, cfs_col_list)
 
     info_gain_directory_out = "TrainTestData/InfoGain/"
-    info_gain_col_list = ["n_ed_visits", "n_ed_admissions", "diagnosis_category", "age", "race", "revisited"]
+    info_gain_col_list = ["separation_mode", "n_ed_visits", "diagnosis_category", "n_ed_admissions", "triage_category", "revisited"]
     load_and_filter_dataframe(directory_in, info_gain_directory_out, info_gain_col_list)
     
 

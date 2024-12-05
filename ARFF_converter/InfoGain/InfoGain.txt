@@ -1,6 +1,6 @@
+@attribute separation_mode {admitted,discharged,'left without being seen',expired/other}
 @attribute n_ed_visits numeric
-@attribute n_ed_admissions numeric
 @attribute diagnosis_category {DIG,SYM,CIR,INJ,MUS,BLD,RSP,MBD,END,NVS,FAC,GEN,EYE,SKN,PRG,INF,EAR,NEO,MAL,PNL}
-@attribute age {46-65,66-85,18-25,26-45,85+}
-@attribute race {WHITE,ASIAN,OTHER,UNKNOWN,BLACK,HISPANIC/LATINO}
+@attribute n_ed_admissions numeric
+@attribute triage_category {three,two,four,one,five}
 @attribute revisited {False,True}

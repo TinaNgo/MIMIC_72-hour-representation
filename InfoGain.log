@@ -1,0 +1,56 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.InfoGainAttributeEval 
+Search:       weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N 5
+Relation:     train
+Instances:    330114
+Attributes:   29
+              gender
+              race
+              separation_mode
+              arrival_mode
+              diagnosis_category
+              chiefcom_chest_pain
+              chiefcom_abdominal_pain
+              chiefcom_headache
+              chiefcom_shortness_of_breath
+              chiefcom_back_pain
+              chiefcom_cough
+              chiefcom_nausea_vomiting
+              chiefcom_fever_chills
+              chiefcom_syncope
+              chiefcom_dizziness
+              age
+              presentation_time
+              ED_LOS
+              triage_category
+              triage_pain
+              n_ed_visits
+              n_ed_admissions
+              triage_temp
+              triage_heartrate
+              triage_resprate
+              triage_o2sat
+              triage_sbp
+              triage_dbp
+              revisited
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (nominal): 29 revisited):
+	Information Gain Ranking Filter
+
+Ranked attributes:
+ 0.01463    3 separation_mode
+ 0.01448   21 n_ed_visits
+ 0.00373    5 diagnosis_category
+ 0.00286   22 n_ed_admissions
+ 0.00164   19 triage_category
+
+Selected attributes: 3,21,5,22,19 : 5

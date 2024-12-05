@@ -1,4 +1,3 @@
-@attribute chiefcom_syncope {False,True}
+@attribute separation_mode {admitted,discharged,'left without being seen',expired/other}
 @attribute n_ed_visits numeric
-@attribute n_ed_admissions numeric
 @attribute revisited {False,True}
