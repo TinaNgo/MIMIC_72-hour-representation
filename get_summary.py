@@ -25,8 +25,8 @@ def output_analytics(df):
         print(tab, '\n')
         
 def main():
-	df = pd.read_csv("/Volumes/TINA_UNI/DataAndCodeMIMIC/GeneratedData/fully_processed_ED.csv")
-	with open("fully_processed_ED " + 'summary1.txt', 'w') as f:
+	df = pd.read_csv("/Volumes/MIMIC/ED_72-hours-representation/GeneratedData/fully_processed_ED.csv")
+	with open("fully_processed_ED " + 'summary.txt', 'w') as f:
 		with redirect_stdout(f):
 			output_analytics(df)
         
