@@ -1,0 +1,29 @@
+@attribute gender {F,M}
+@attribute race {WHITE,ASIAN,OTHER,UNKNOWN,BLACK,HISPANIC/LATINO}
+@attribute separation_mode {admitted,discharged,'left without being seen',expired/other}
+@attribute arrival_mode {ambulance,other,unknown}
+@attribute diagnosis_category {DIG,SYM,CIR,INJ,MUS,BLD,RSP,MBD,END,NVS,FAC,GEN,EYE,SKN,PRG,INF,EAR,NEO,MAL,PNL}
+@attribute chiefcom_chest_pain {False,True}
+@attribute chiefcom_abdominal_pain {True,False}
+@attribute chiefcom_headache {False,True}
+@attribute chiefcom_shortness_of_breath {False,True}
+@attribute chiefcom_back_pain {False,True}
+@attribute chiefcom_cough {False,True}
+@attribute chiefcom_nausea_vomiting {False,True}
+@attribute chiefcom_fever_chills {False,True}
+@attribute chiefcom_syncope {False,True}
+@attribute chiefcom_dizziness {False,True}
+@attribute age {46-65,66-85,18-25,26-45,85+}
+@attribute presentation_time {evening,'business hours',night}
+@attribute ED_LOS {0-4,5-12,13-24,24+}
+@attribute triage_category {three,two,four,one,five}
+@attribute triage_pain {zero,ten,seven,five,eight,one,three,six,two,four,nine}
+@attribute n_ed_visits numeric
+@attribute n_ed_admissions numeric
+@attribute triage_temp numeric
+@attribute triage_heartrate numeric
+@attribute triage_resprate numeric
+@attribute triage_o2sat numeric
+@attribute triage_sbp numeric
+@attribute triage_dbp numeric
+@attribute revisited {False,True}

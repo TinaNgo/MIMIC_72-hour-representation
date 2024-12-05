@@ -1,0 +1,6 @@
+@attribute gender {F,M}
+@attribute separation_mode {admitted,discharged,'left without being seen',expired/other}
+@attribute diagnosis_category {DIG,SYM,CIR,INJ,MUS,BLD,RSP,MBD,END,NVS,FAC,GEN,EYE,SKN,PRG,INF,EAR,NEO,MAL,PNL}
+@attribute age {46-65,66-85,18-25,26-45,85+}
+@attribute triage_category {three,two,four,one,five}
+@attribute revisited {False,True}

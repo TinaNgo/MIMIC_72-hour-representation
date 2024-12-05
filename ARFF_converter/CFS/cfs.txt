@@ -1,0 +1,4 @@
+@attribute chiefcom_syncope {False,True}
+@attribute n_ed_visits numeric
+@attribute n_ed_admissions numeric
+@attribute revisited {False,True}
